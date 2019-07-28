@@ -8,6 +8,9 @@ customElements.define('todo-item',
       this.liDom = document.createElement('li');
       this.liDom.innerHTML = `
         <style>
+          :host {
+            display: block;
+          }
           li {
             list-style: none;
             border-bottom: 1px solid #ededed;
