@@ -30,4 +30,5 @@ class ColorButton extends HTMLElement {
   }
 }
 
+// name must start with an ASCII letter and contain a dash (-)
 customElements.define('color-button', ColorButton);
